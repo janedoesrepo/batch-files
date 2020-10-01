@@ -8,6 +8,6 @@ The script performs the following actions:
  - Install nb_conda extensions and register an ipykernel for the environment
 
 ## Usage
-This creates an environment called *tensorflow*, installs *Python 3.7* and registers an ipykernel with the name "Python 3.7 (tensorflow):
+This creates an environment called *tensorflow*, installs *Python 3.7* and registers an ipykernel with the name "Python 3.7 (tensorflow)":
 
 ```create_conda_env.cmd tensorflow 3.7```
