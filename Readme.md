@@ -11,3 +11,6 @@ The script performs the following actions:
 This creates an environment called *tensorflow*, installs *Python 3.7* and registers an ipykernel with the name "Python 3.7 (tensorflow)":
 
 ```create_conda_env.cmd tensorflow 3.7```
+
+## Future Ideas
+ - Set a default py-version in case none is provided
