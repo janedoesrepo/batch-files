@@ -1,4 +1,3 @@
-rem turn off echo display
 @echo off
 
 rem check if two but not three parameters are provided
@@ -28,4 +27,4 @@ cmd /c python -m ipykernel install --user --name %env-name% --display-name "Pyth
 rem deactivate environment and check the list of environments
 cmd /c conda deactivate
 cmd /c conda env list
-echo Environment %env-name% successfully created
+echo Environment %env-name% (Python %py-version%) successfully created
