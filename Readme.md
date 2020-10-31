@@ -1,16 +1,6 @@
-# Create conda environment programmatically with batch script
+# A collection of batch scripts
 
-Instead of looking up the commands each time you want to create a conda environment and register an ipykernel for your jupyter notebook, just run this script.
+No more google-search while performing regular tasks
 
-## What does it do?
-The script performs the following actions:
- - Create and activate a new conda environment with python
- - Install nb_conda extensions and register an ipykernel for the environment
-
-## Usage
-This creates an environment called *tensorflow*, installs *Python 3.7* and registers an ipykernel with the name "Python 3.7 (tensorflow)":
-
-```create_conda_env.cmd tensorflow 3.7```
-
-## Future Ideas
- - Set a default py-version in case none is provided
+ - *Conda env creator:* creates a Python environment in Anaconda automatically and registers an ipykernel
+ - *Git backup script:* pushes your repository whenever you want (or forget) to
