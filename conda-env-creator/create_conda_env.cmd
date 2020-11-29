@@ -18,7 +18,7 @@ set py-version=%2
 
 rem create and activate environment
 cmd /c conda create -y --name %env-name% python=%py-version%
-cmd /c conda activate %env-name%
+call conda activate %env-name%
 
 rem install nb extensions and register ipykernel
 cmd /c conda install -y nb_conda
